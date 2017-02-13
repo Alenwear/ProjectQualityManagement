@@ -17,6 +17,27 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="project-quality-management-api" />
+        <module name="project-quality-management-mapper" />
+        <module name="project-quality-management-model" />
+        <module name="project-quality-management-service" />
+        <module name="project-quality-management-task" />
+        <module name="project-quality-management-web" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="project-quality-management-api" target="1.5" />
+      <module name="project-quality-management-mapper" target="1.5" />
+      <module name="project-quality-management-model" target="1.5" />
+      <module name="project-quality-management-service" target="1.5" />
+      <module name="project-quality-management-task" target="1.5" />
+      <module name="project-quality-management-web" target="1.5" />
+      <module name="ProjectQualityManagement" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
