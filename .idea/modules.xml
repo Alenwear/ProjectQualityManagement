@@ -8,7 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/project-quality-management-model/project-quality-management-model.iml" filepath="$PROJECT_DIR$/project-quality-management-model/project-quality-management-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/project-quality-management-service/project-quality-management-service.iml" filepath="$PROJECT_DIR$/project-quality-management-service/project-quality-management-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/project-quality-management-task/project-quality-management-task.iml" filepath="$PROJECT_DIR$/project-quality-management-task/project-quality-management-task.iml" />
-      <module fileurl="file://$PROJECT_DIR$/project-quality-management-web/project-quality-management-web.iml" filepath="$PROJECT_DIR$/project-quality-management-web/project-quality-management-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-quality-management-webapp/project-quality-management-webapp.iml" filepath="$PROJECT_DIR$/project-quality-management-webapp/project-quality-management-webapp.iml" />
     </modules>
   </component>
 </project>

@@ -267,5 +267,6 @@
         <module>project-quality-management-service</module>
         <module>project-quality-management-task</module>
         <module>project-quality-management-web</module>
+        <module>project-quality-management-webapp</module>
     </modules>
 </project>
