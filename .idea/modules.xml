@@ -4,10 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ProjectQualityManagement.iml" filepath="$PROJECT_DIR$/.idea/ProjectQualityManagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/project-quality-management-api/project-quality-management-api.iml" filepath="$PROJECT_DIR$/project-quality-management-api/project-quality-management-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-quality-management-core/project-quality-management-core.iml" filepath="$PROJECT_DIR$/project-quality-management-core/project-quality-management-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/project-quality-management-mapper/project-quality-management-mapper.iml" filepath="$PROJECT_DIR$/project-quality-management-mapper/project-quality-management-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/project-quality-management-model/project-quality-management-model.iml" filepath="$PROJECT_DIR$/project-quality-management-model/project-quality-management-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/project-quality-management-service/project-quality-management-service.iml" filepath="$PROJECT_DIR$/project-quality-management-service/project-quality-management-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/project-quality-management-task/project-quality-management-task.iml" filepath="$PROJECT_DIR$/project-quality-management-task/project-quality-management-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/project-quality-management-utils/project-quality-management-utils.iml" filepath="$PROJECT_DIR$/project-quality-management-utils/project-quality-management-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/project-quality-management-webapp/project-quality-management-webapp.iml" filepath="$PROJECT_DIR$/project-quality-management-webapp/project-quality-management-webapp.iml" />
     </modules>
   </component>
