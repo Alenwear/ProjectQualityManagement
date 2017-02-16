@@ -60,7 +60,11 @@
             <artifactId>HikariCP</artifactId>
             <!-- 版本号可以不用指定，Spring Boot会选用合适的版本 -->
         </dependency>
-
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.30</version>
+        </dependency>
     </dependencies>
 
     <build>
