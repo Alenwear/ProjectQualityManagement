@@ -75,25 +75,25 @@
 
 
             <!--jetty 插件，mvn jetty:run -->
-            <plugin>
-                <groupId>org.eclipse.jetty</groupId>
-                <artifactId>jetty-maven-plugin</artifactId>
-                <version>9.4.0.M1</version>
-                <configuration>
-                    <webApp>
-                        <contextPath>/</contextPath>
-                        <descriptor>${basedir}/src/main/webapp/WEB-INF/web.xml</descriptor>
-                    </webApp>
-                    <stopKey>exit</stopKey>
-                    <stopPort>9091</stopPort>
-                    <webAppSourceDirectory>${project.basedir}/src/main/webapp</webAppSourceDirectory>
-                    <scanIntervalSeconds>0</scanIntervalSeconds><!-- 热部署时间间隔 -->
-                    <reload>manual</reload><!-- 在控制台回车,重启工程 -->
-                    <httpConnector>
-                        <port>8080</port><!-- 端口 -->
-                    </httpConnector>
-                </configuration>
-            </plugin>
+            <!--<plugin>-->
+                <!--<groupId>org.eclipse.jetty</groupId>-->
+                <!--<artifactId>jetty-maven-plugin</artifactId>-->
+                <!--<version>9.4.0.M1</version>-->
+                <!--<configuration>-->
+                    <!--<webApp>-->
+                        <!--<contextPath>/</contextPath>-->
+                        <!--<descriptor>${basedir}/src/main/webapp/WEB-INF/web.xml</descriptor>-->
+                    <!--</webApp>-->
+                    <!--<stopKey>exit</stopKey>-->
+                    <!--<stopPort>9091</stopPort>-->
+                    <!--<webAppSourceDirectory>${project.basedir}/src/main/webapp</webAppSourceDirectory>-->
+                    <!--<scanIntervalSeconds>0</scanIntervalSeconds>&lt;!&ndash; 热部署时间间隔 &ndash;&gt;-->
+                    <!--<reload>manual</reload>&lt;!&ndash; 在控制台回车,重启工程 &ndash;&gt;-->
+                    <!--<httpConnector>-->
+                        <!--<port>8080</port>&lt;!&ndash; 端口 &ndash;&gt;-->
+                    <!--</httpConnector>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
             <!-- tomcat 插件，mvn tomcat:run -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
